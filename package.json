@@ -9,6 +9,7 @@
   "dependencies": {
     "express": "^4.19.2",
     "multer": "^1.4.5-lts.1",
+    "libreoffice-convert": "^1.4.1",
     "docx-pdf": "^0.0.1"
   }
 }
