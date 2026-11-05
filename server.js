@@ -9,7 +9,7 @@ const PDFDocument = require('pdfkit-table');
 
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 // Wadah database komentar pengunjung sementara untuk menaikkan SEO AdSense
 let databaseKomentar = [
     { nama: "Randi Audio", isi: "Hasil mastering audionya jernih banget bang! Sukses terus Fajum Kajang!", waktu: "04/11/2026, 09.00" }
